@@ -1,5 +1,5 @@
 class RingBuffer:
-  def _init_(self, capacity):
+  def __init__(self, capacity):
       self.capacity = capacity
       self.current = 0
       self.storage = [None] * capacity
